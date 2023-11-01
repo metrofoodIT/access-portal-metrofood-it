@@ -1,0 +1,27 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" class="menu" opened>
+    <img class="logo" src="../../../assets/metrofood_itretina.png" alt="Metrofood-IT" width="80%">
+    <mat-list class="list" role="list">
+      <mat-list-item role="listitem" routerLink="home"><span class="labelmenu">Home</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="about-us"><span class="labelmenu">About Us</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="access"><span class="labelmenu">Access</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="training"><span class="labelmenu">Training</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="facilities"><span class="labelmenu">Facilities</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="research"><span class="labelmenu">Research</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="contacts"><span class="labelmenu">Contacts</span></mat-list-item>
+    </mat-list>
+      <img class="logofundings" src="../../../assets/it-finanziato-dallunione-europea_white-outline_white-outline.png" alt="NextGeneration EU" width="90%">
+      <img class="logofundings" src="../../../assets/logobianco-_universitaricerca-nolineare_.png" alt="Ministero dell'Università e della Ricerca" width="80%">
+
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <span class="toolbar-icons"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+    </mat-toolbar>
+    <router-outlet class="content"></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

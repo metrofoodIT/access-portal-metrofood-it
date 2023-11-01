@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.mdc-tab__text-label{
+  color: rgb(214, 77, 41) !important;
+}
+
+.mdc-tab-indicator__content .mdc-tab-indicator__content--underline{
+  border-color: rgb(214, 77, 41) !important;
+}
+
+.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline, .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline {
+  border-color: var(--mdc-tab-indicator-active-indicator-color, #d64c29);
+}
+
+.mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label{
+  color: white !important;
+}

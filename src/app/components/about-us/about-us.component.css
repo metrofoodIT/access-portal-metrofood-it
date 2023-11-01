@@ -1,0 +1,74 @@
+.h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.mat-tab-content{
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.example-tab-icon {
+  margin-right: 8px;
+}
+
+/*.mdc-tab__text-label{
+  color: rgb(214, 77, 41) !important;
+}
+
+.mdc-tab-indicator__content .mdc-tab-indicator__content--underline{
+  border-color: rgb(214, 77, 41) !important;
+}
+
+.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline, .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline {
+  border-color: var(--mdc-tab-indicator-active-indicator-color, #d64c29);
+}*/
+
+.subtitle{
+  color: black;
+}
+
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.column-mat-tab-content{
+  height: 100vh;
+  overflow: scroll;
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.mat-tab-content-consortium{
+  display: flex;
+}
+
+.image-map{
+  width: 100%;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+  position: relative;
+  text-align: justify;
+}
+
+.partner-logo-button{
+  width: 50px;
+  margin: 0;
+}
+
+.mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}

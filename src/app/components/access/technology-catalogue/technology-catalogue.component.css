@@ -1,0 +1,32 @@
+.h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.mat-tab-content{
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.example-tab-icon {
+  margin-right: 8px;
+}
+
+.example-card {
+  max-width: 100%;
+  background-color: rgb(214, 77, 41) !important;
+  color: white;
+}
+
+.example-header-image {
+  background-color: black;
+  /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
+  background-size: cover;
+}

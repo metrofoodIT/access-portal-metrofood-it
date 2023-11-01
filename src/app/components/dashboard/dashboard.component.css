@@ -1,0 +1,46 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+.menu{
+  background-color: #595956;
+  text-align: center;
+  width: 10%;
+}
+
+.list{
+  height: 74%;
+}
+
+.labelmenu{
+  text-transform: uppercase;
+  color: white !important;
+}
+
+.logo{
+  margin-top: 10%;
+}
+
+.mat-toolbar{
+  color: white;
+  background-color: #d64c29;
+}
+
+.toolbar-icons{
+  flex: 1 1 auto;
+}
+
+.content{
+  left: 20%;
+}
+
+.logofundings{
+  margin-bottom: 15%;
+}
+
+

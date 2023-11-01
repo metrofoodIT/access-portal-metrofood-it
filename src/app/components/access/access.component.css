@@ -1,0 +1,88 @@
+.h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 100%;
+}
+
+.mat-tab-content{
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.example-tab-icon {
+  margin-right: 8px;
+}
+
+/* .mdc-tab__text-label{
+  color: rgb(214, 77, 41) !important;
+}
+
+.mdc-tab-indicator__content .mdc-tab-indicator__content--underline{
+  border-color: rgb(214, 77, 41) !important;
+}
+
+.mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline, .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline {
+  border-color: var(--mdc-tab-indicator-active-indicator-color, #d64c29);
+} */
+
+.column-mat-tab-content{
+  height: 100vh;
+  float: left;
+  width: 70%;
+  padding: 5px;
+  overflow: scroll;
+}
+
+.column-icons{
+  height: auto;
+  float: left;
+  width: 30%;
+  padding: 5px;
+  overflow: scroll;
+  align-items: center;
+  text-align: center;
+}
+
+.example-card {
+  width: 100%;
+  background-color: rgb(214, 77, 41) !important;
+  color: white;
+  animation-direction: alternate;
+}
+
+.example-header-image {
+  background-color: black;
+  /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
+  background-size: cover;
+}
+
+.buttons-cards{
+  text-align: center;
+  display: block;
+  padding-top: 1%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.access-image{
+  height: 80%;
+  width: 100%;
+}
+
+.access-menu{
+  padding-left: 2%;
+  padding-right: 2%;
+}
