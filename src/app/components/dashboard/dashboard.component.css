@@ -8,18 +8,24 @@
 }
 
 .menu{
-  background-color: #595956;
+  background-color: #e1f2c2;
+  /*background-color: #595956;*/
   text-align: center;
-  width: 10%;
+  width: 12%;
+  font-size: xx-small;
 }
 
 .list{
-  height: 72%;
+  height: 70%;
+}
+
+.listlanguage{
+  height: auto;
 }
 
 .labelmenu{
   text-transform: uppercase;
-  color: white !important;
+  color: black !important;
 }
 
 .logo{
@@ -28,7 +34,8 @@
 
 .mat-toolbar{
   color: white;
-  background-color: #d64c29;
+  /*background-color: #d64c29;*/
+  background-color: #878783;
 }
 
 .toolbar-icons{
@@ -43,4 +50,40 @@
   margin-bottom: 15%;
 }
 
+.column-logos{
+  display: inline-block;
+  width: 33.3%;
+  height: auto;
+  padding-right: 1%;
+  padding-left: 1.5%;
+}
 
+.toolbar-image{
+  height: auto;
+
+  align-items: center;
+  margin-left: 25%;
+
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ec4c28;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}

@@ -14,6 +14,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -21,20 +23,16 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-import { AccessComponent } from './components/access/access.component';
 import { TrainingComponent } from './components/training/training.component';
 import { FacilitiesComponent } from './components/facilities/facilities.component';
-import { ResearchComponent } from './components/research/research.component';
+import { ResearchComponent } from './components/science/research.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { LoremipsumComponent } from './components/access/technology-catalogue/loremipsum/loremipsum.component';
-import { TechnologyCatalogueComponent } from './components/access/technology-catalogue/technology-catalogue.component';
-import { AccessModeComponent } from './components/access/access-mode/access-mode.component';
-import { FundingForAccessComponent } from './components/access/funding-for-access/funding-for-access.component';
-import { WhoCanApplyComponent } from './components/access/who-can-apply/who-can-apply.component';
-import { ProposalSubmissionFaqComponent } from './components/access/proposal-submission-faq/proposal-submission-faq.component';
-import { OpenCallsComponent } from './components/access/open-calls/open-calls.component';
+import { LoremipsumComponent } from './components/technology-catalogue/loremipsum/loremipsum.component';
+import { TechnologyCatalogueComponent } from './components/technology-catalogue/technology-catalogue.component';
+import { OpenCallsComponent } from './components/open-calls/open-calls.component';
+import { LivingLabsComponent } from './components/living-labs/living-labs.component';
+import { ContattiComponent } from './components/it/contatti/contatti.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +41,6 @@ import { OpenCallsComponent } from './components/access/open-calls/open-calls.co
     LoginComponent,
     RegisterComponent,
     AboutUsComponent,
-    AccessComponent,
     TrainingComponent,
     FacilitiesComponent,
     ResearchComponent,
@@ -51,11 +48,9 @@ import { OpenCallsComponent } from './components/access/open-calls/open-calls.co
     DashboardComponent,
     LoremipsumComponent,
     TechnologyCatalogueComponent,
-    AccessModeComponent,
-    FundingForAccessComponent,
-    WhoCanApplyComponent,
-    ProposalSubmissionFaqComponent,
     OpenCallsComponent,
+    LivingLabsComponent,
+    ContattiComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,6 +59,7 @@ import { OpenCallsComponent } from './components/access/open-calls/open-calls.co
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
+    MatInputModule,
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
@@ -74,6 +70,10 @@ import { OpenCallsComponent } from './components/access/open-calls/open-calls.co
     MatButtonToggleModule,
     MatExpansionModule,
     MatCardModule,
+  ],
+  exports: [
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

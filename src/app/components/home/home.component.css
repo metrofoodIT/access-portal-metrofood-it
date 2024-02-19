@@ -21,11 +21,9 @@
 .demo-content{
   position: relative;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.50);
   margin: 0% 1% 0% 1%;
   padding-top: 5%;
   padding-bottom: 5%;
-
 }
 
 .demo-content-title{
@@ -78,6 +76,28 @@
   margin-left: 1%;
   width: 100%;
   text-align: center;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ec4c28;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
 }
 
 .column-logos{

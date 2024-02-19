@@ -23,3 +23,14 @@ ul {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.mat-mdc-button{
+  background-color: rgb(236, 76, 40) !important;
+  align-content: center;
+}
+
+.portal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

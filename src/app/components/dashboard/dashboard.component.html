@@ -3,24 +3,42 @@
     <img class="logo" src="/access-portal-metrofood-it/assets/metrofood_itretina.png" alt="Metrofood-IT" width="80%">
     <mat-list class="list" role="list">
       <mat-list-item role="listitem" routerLink="home"><span class="labelmenu">Home</span></mat-list-item>
-      <mat-list-item role="listitem" routerLink="about-us"><span class="labelmenu">About Us</span></mat-list-item>
-      <mat-list-item role="listitem" routerLink="access"><span class="labelmenu">Access</span></mat-list-item>
+      <mat-list-item role="listitem" (click)="goToExternalLink('https://www.metrofood.it/')"><span class="labelmenu">About Us</span></mat-list-item>
+      <!--<mat-list-item role="listitem" routerLink="access"><span class="labelmenu">Access</span></mat-list-item>-->
       <mat-list-item role="listitem" routerLink="training"><span class="labelmenu">Training</span></mat-list-item>
       <mat-list-item role="listitem" routerLink="facilities"><span class="labelmenu">Facilities</span></mat-list-item>
+      <!--<mat-list-item role="listitem" routerLink="open-calls"><span class="labelmenu">Open Calls</span></mat-list-item>-->
       <mat-list-item role="listitem" routerLink="research"><span class="labelmenu">Research</span></mat-list-item>
       <mat-list-item role="listitem" routerLink="contacts"><span class="labelmenu">Contacts</span></mat-list-item>
     </mat-list>
-      <img class="logofundings" src="/access-portal-metrofood-it/assets/it-finanziato-dallunione-europea_white-outline_white-outline.png" alt="NextGeneration EU" width="90%">
-      <img class="logofundings" src="/access-portal-metrofood-it/assets/logobianco-_universitaricerca-nolineare_.png" alt="Ministero dell'Università e della Ricerca" width="80%">
-
+       <!--<img class="logofundings" src="../../../assets/it-finanziato-dallunione-europea_white-outline_white-outline.png" alt="NextGeneration EU" width="90%">
+      <img class="logofundings" src="../../../assets/logobianco-_universitaricerca-nolineare_.png" alt="Ministero dell'Università e della Ricerca" width="80%">-->
+      <!--<span class="toolbar-icons"></span>
+      <button mat-icon-button aria-label="Example icon-button with heart icon">
+        <mat-icon>account_circle</mat-icon>
+      </button>-->
+      <mat-list class="listlanguage" role="list">
+        <mat-icon routerLink="login">account_circle</mat-icon>
+        <mat-list-item role="listitem" routerLink="home"><span class="labelmenu">ITA</span></mat-list-item>
+      <mat-list-item role="listitem" routerLink="it/home"><span class="labelmenu">ENG</span></mat-list-item>
+      </mat-list>
 
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar>
-      <span class="toolbar-icons"></span>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <div class="column-logos">
+        <img class="toolbar-image" src="/access-portal-metrofood-it/assets/it-finanziato-dallunione-europea_white-outline_white-outline.png" alt="NextGeneration EU" width="50%">
+      </div>
+      <div class="column-logos">
+        <img class="toolbar-image" src="/access-portal-metrofood-it/assets/logobianco-_universitaricerca-nolineare_.png" alt="Ministero dell'Università e della Ricerca" width="40%">
+      </div>
+      <div class="column-logos">
+        <img class="toolbar-image" src="/access-portal-metrofood-it/assets/italia-domani-tracciato.png" alt="Italia Domani" width="50%">
+      </div>
+      <!--<span class="toolbar-icons"></span>
+      <button mat-icon-button aria-label="Example icon-button with heart icon">
         <mat-icon>account_circle</mat-icon>
-      </button>
+      </button>-->
     </mat-toolbar>
     <router-outlet class="content"></router-outlet>
   </mat-sidenav-content>
