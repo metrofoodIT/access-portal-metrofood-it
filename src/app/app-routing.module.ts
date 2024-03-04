@@ -10,7 +10,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { TechnologyCatalogueComponent } from './components/technology-catalogue/technology-catalogue.component';
 import { LoremipsumComponent } from './components/technology-catalogue/loremipsum/loremipsum.component';
 import { LivingLabsComponent } from './components/living-labs/living-labs.component';
-import { OpenCallsComponent } from './components/open-calls/open-calls.component';
+import { OpenCallsComponent } from './components/open-calls/open-calls.component';+
+import { OpItem1Component } from './components/open-calls/open-calls-item/op-item1/op-item1.component';
+import { OpItem2Component } from './components/open-calls/open-calls-item/op-item2/op-item2.component';
 import { ContattiComponent } from './components/it/contatti/contatti.component';
 
 
@@ -27,6 +29,8 @@ const routes: Routes = [
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
     {path: 'open-calls', component: OpenCallsComponent},
+    {path: 'open-calls/op-item1', component: OpItem1Component},
+    {path: 'open-calls/op-item2', component: OpItem2Component},
     {path: 'it/contatti', component: ContattiComponent},
   ]},
 
