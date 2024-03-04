@@ -1,0 +1,45 @@
+.h1, .h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title, .subtitle{
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+img {
+  margin-left: 1%;
+  position: relative;
+}
+
+figcaption{
+  margin-left: 1%;
+}
+
+p{
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mat-mdc-button{
+  background-color: rgb(236, 76, 40) !important;
+  align-content: center;
+}
+
+.portal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

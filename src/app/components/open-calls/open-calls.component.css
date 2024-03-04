@@ -33,8 +33,13 @@
   text-align: justify;
 }
 
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+.example-header-image1 {
+  background-image: url('/access-portal-metrofood-it/assets/rintracciabilita-alimeti_ita.jpg');
+  background-size: cover;
+}
+
+.example-header-image2 {
+  background-image: url('/access-portal-metrofood-it/assets/firme-spettroscopiche.jpg');
   background-size: cover;
 }
 
